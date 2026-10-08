@@ -1,5 +1,491 @@
 # TechNova Responsive Website
 
+A modern and fully responsive single-page website created for **Web Development Internship — Task 4: Make a Website Mobile-Friendly Using CSS Media Queries**.
+
+---
+
+## 📌 Project Overview
+
+TechNova is a professional digital solutions website designed to demonstrate responsive web development.
+
+The project starts with a desktop-style layout and uses **CSS Media Queries** and responsive design techniques to make the website work properly across desktop, tablet, and mobile devices.
+
+The main focus of this project is understanding how web layouts can automatically adapt to different screen sizes.
+
+---
+
+## 🎯 Objective
+
+The objective of this task is to convert a desktop-oriented webpage into a **mobile-friendly responsive website** using CSS media queries.
+
+The project focuses on:
+
+* Responsive Web Design
+* CSS Media Queries
+* Mobile-friendly layouts
+* Flexible layouts
+* Responsive navigation
+* Responsive images
+* CSS Flexbox
+* CSS Grid
+* Responsive CSS units
+* Preventing horizontal overflow
+* Testing different screen sizes
+
+---
+
+## 🛠️ Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript
+* CSS Flexbox
+* CSS Grid
+* CSS Media Queries
+* Chrome DevTools
+
+No external framework or paid tool is required.
+
+---
+
+## ✨ Features
+
+### Responsive Navigation
+
+The website includes a responsive navigation bar.
+
+On desktop:
+
+* Logo appears on the left
+* Navigation links appear horizontally
+
+On mobile:
+
+* Navigation links are hidden
+* A hamburger menu is displayed
+* Users can open and close the navigation menu
+
+---
+
+### Hero Section
+
+The hero section contains:
+
+* Main heading
+* Website description
+* Call-to-action buttons
+* Technology-themed visual element
+
+The layout changes according to the available screen width.
+
+---
+
+### About Section
+
+The About section introduces TechNova and displays company statistics such as:
+
+* 50+ Projects
+* 30+ Clients
+* 5+ Years Experience
+
+The statistics adapt to smaller screens.
+
+---
+
+### Services Section
+
+The website contains four services:
+
+1. Web Development
+2. Mobile App Development
+3. UI/UX Design
+4. Cloud Solutions
+
+The service cards use **CSS Grid**.
+
+Desktop:
+
+```text
+[ Web ] [ Mobile ] [ UI/UX ] [ Cloud ]
+```
+
+Tablet:
+
+```text
+[ Web ] [ Mobile ]
+[ UI/UX ] [ Cloud ]
+```
+
+Mobile:
+
+```text
+[ Web ]
+[ Mobile ]
+[ UI/UX ]
+[ Cloud ]
+```
+
+---
+
+### Projects Section
+
+The project section contains three project cards.
+
+Each project includes:
+
+* Project visual
+* Project name
+* Description
+* Technology tags
+* View Project button
+
+The cards automatically adjust according to the screen size.
+
+---
+
+### Why Choose Us
+
+The section contains four features:
+
+* Responsive Solutions
+* Modern Technology
+* Secure Development
+* Dedicated Support
+
+---
+
+### Contact Section
+
+A responsive contact form is included with:
+
+* Name
+* Email
+* Subject
+* Message
+* Submit button
+
+The form adjusts to smaller screen sizes so that fields remain easy to use.
+
+---
+
+### Footer
+
+The footer contains:
+
+* TechNova information
+* Quick links
+* Services
+* Contact information
+* Copyright information
+
+---
+
+## 📱 Responsive Design
+
+Responsive design is the main focus of this project.
+
+The website has been designed to work across:
+
+* Mobile
+* Tablet
+* Desktop
+
+### Desktop
+
+The desktop layout provides:
+
+* Full navigation
+* Multi-column sections
+* Larger typography
+* More spacing
+* Wider content areas
+
+### Tablet
+
+The tablet layout:
+
+* Adjusts column counts
+* Reduces spacing
+* Resizes typography
+* Keeps content within the viewport
+
+### Mobile
+
+The mobile layout:
+
+* Stacks sections vertically
+* Uses a hamburger navigation
+* Reduces heading sizes
+* Makes buttons easier to tap
+* Converts grids into single-column layouts
+* Makes the contact form responsive
+* Prevents unwanted horizontal scrolling
+* Scales images to fit the screen
+
+---
+
+## 📐 CSS Media Queries
+
+The project uses CSS media queries to change the layout according to screen width.
+
+Example:
+
+```css
+@media (max-width: 768px) {
+    /* Mobile responsive styles */
+}
+```
+
+Media queries allow different CSS rules to be applied depending on the device or viewport size.
+
+---
+
+## 📏 Responsive CSS Units
+
+The project uses responsive and flexible units where appropriate, including:
+
+* `%`
+* `rem`
+* `em`
+* `vw`
+* `vh`
+* `px`
+
+These units help create layouts that adapt to different screen sizes.
+
+---
+
+## 📦 Flexbox
+
+Flexbox is used for flexible one-dimensional layouts.
+
+It is used for elements such as:
+
+* Navigation
+* Hero section
+* Buttons
+* Footer content
+* Other responsive layouts
+
+---
+
+## 🔲 CSS Grid
+
+CSS Grid is used for multi-column layouts.
+
+It is especially used for:
+
+* Services
+* Projects
+* Feature cards
+
+The number of columns changes according to the viewport width.
+
+---
+
+## 🖼️ Responsive Images
+
+Images are prevented from becoming larger than their containers.
+
+Example:
+
+```css
+img {
+    max-width: 100%;
+    height: auto;
+}
+```
+
+This helps images scale correctly on smaller devices.
+
+---
+
+## 🚫 Horizontal Overflow Prevention
+
+The website is designed to prevent unwanted horizontal scrolling.
+
+The project uses:
+
+```css
+html,
+body {
+    overflow-x: hidden;
+}
+```
+
+However, the layout is also structured properly so that elements do not unnecessarily exceed the viewport width.
+
+---
+
+## 📱 Viewport Meta Tag
+
+The HTML document includes:
+
+```html
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+>
+```
+
+This allows the webpage to display correctly according to the device's viewport width.
+
+---
+
+## 📂 Project Structure
+
+```text
+technova-responsive/
+│
+├── index.html
+├── README.md
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── script.js
+│
+└── assets/
+    └── images/
+```
+
+---
+
+## ▶️ How to Run
+
+### Method 1 — VS Code Live Server
+
+1. Open the project in VS Code.
+2. Install the **Live Server** extension if it is not already installed.
+3. Right-click `index.html`.
+4. Select **Open with Live Server**.
+5. The website will open in your browser.
+
+### Method 2 — Direct Browser
+
+You can also open:
+
+```text
+index.html
+```
+
+directly in a browser.
+
+---
+
+## 🧪 Responsive Testing
+
+The website should be tested using **Chrome DevTools Device Toolbar**.
+
+Recommended viewport sizes:
+
+```text
+320px
+375px
+425px
+768px
+1024px
+1440px
+```
+
+### Testing Checklist
+
+* [ ] No horizontal scrolling
+* [ ] Navbar works correctly
+* [ ] Hamburger menu works
+* [ ] Hero section fits the screen
+* [ ] Services cards respond correctly
+* [ ] Project cards respond correctly
+* [ ] Images scale correctly
+* [ ] Text does not overflow
+* [ ] Buttons remain usable
+* [ ] Contact form fits the screen
+* [ ] Footer remains responsive
+* [ ] Desktop layout works
+* [ ] Tablet layout works
+* [ ] Mobile layout works
+
+---
+
+## 💡 Key Concepts Learned
+
+This project demonstrates the following concepts:
+
+* Media Queries
+* Responsive Web Design
+* Mobile-first design
+* Desktop-first design
+* CSS Flexbox
+* CSS Grid
+* Responsive images
+* CSS units
+* Viewport
+* Responsive navigation
+* Breakpoints
+* Mobile layouts
+* Tablet layouts
+* Overflow management
+
+---
+
+## 📚 Internship Task
+
+**Task 4 — Make a Website Mobile-Friendly Using CSS Media Queries**
+
+The project demonstrates the conversion of a desktop-style webpage into a mobile-friendly responsive website using CSS media queries.
+
+---
+
+## 👨‍💻 Author
+
+**Ayush Singh Tiwari**
+
+BCA Student
+Web Development Learner
+
+---
+
+## 📄 Task Requirements
+
+The project follows the internship task requirements by focusing on:
+
+* Media queries
+* Mobile-friendly layouts
+* Responsive design
+* Flexible layouts
+* Responsive images
+* Navigation responsiveness
+* Chrome DevTools testing
+
+---
+
+## 🚀 Future Improvements
+
+Possible future improvements include:
+
+* Adding a backend contact form
+* Adding real project links
+* Adding animations
+* Adding dark/light mode
+* Connecting the website to a database
+* Deploying the website online
+
+---
+
+## 📌 Internship Submission
+
+Before submission, verify that:
+
+1. The complete project is uploaded to GitHub.
+2. `README.md` is included.
+3. All project files are included.
+4. The website works correctly.
+5. Mobile responsiveness has been tested.
+6. No major console errors remain.
+7. The GitHub repository link is ready for submission.
+# TechNova Responsive Website
+
 [![Task 4 - Responsive Web Design](https://img.shields.io/badge/Task%204-Mobile--Friendly%20Website-blue.svg)](#)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](#)
 [![CSS3 Media Queries](https://img.shields.io/badge/CSS3-Media%20Queries-1572B6?style=flat&logo=css3&logoColor=white)](#)
