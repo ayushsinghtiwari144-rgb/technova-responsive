@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="16" fill="url(#bgGrad)"/>
+  <!-- Decorative Cloud Grid -->
+  <g opacity="0.1" stroke="#ffffff" stroke-width="1">
+    <path d="M0,80 H600 M0,160 H600 M0,240 H600 M0,320 H600"/>
+    <path d="M120,0 V400 M240,0 V400 M360,0 V400 M480,0 V400"/>
+  </g>
+  <!-- Cloud Graphic -->
+  <g transform="translate(180, 80)">
+    <path d="M70 120 C40 120 20 100 20 70 C20 45 35 25 60 20 C70 5 95 -5 120 5 C145 -5 170 5 180 25 C205 25 220 45 220 70 C220 100 200 120 170 120 Z" fill="url(#accent)" opacity="0.85"/>
+    <!-- Server Rack inside Cloud -->
+    <rect x="75" y="45" width="90" height="15" rx="3" fill="#0f172a"/>
+    <circle cx="85" cy="52.5" r="2.5" fill="#22c55e"/>
+    <circle cx="95" cy="52.5" r="2.5" fill="#22c55e"/>
+    <rect x="75" y="65" width="90" height="15" rx="3" fill="#0f172a"/>
+    <circle cx="85" cy="72.5" r="2.5" fill="#38bdf8"/>
+    <circle cx="95" cy="72.5" r="2.5" fill="#38bdf8"/>
+    <rect x="75" y="85" width="90" height="15" rx="3" fill="#0f172a"/>
+    <circle cx="85" cy="92.5" r="2.5" fill="#eab308"/>
+    <circle cx="95" cy="92.5" r="2.5" fill="#eab308"/>
+  </g>
+  <!-- Platform Title Bar Mockup -->
+  <rect x="60" y="240" width="480" height="110" rx="12" fill="#0f172a" opacity="0.9" stroke="#334155" stroke-width="2"/>
+  <rect x="80" y="265" width="140" height="12" rx="4" fill="#6366f1"/>
+  <rect x="80" y="290" width="220" height="8" rx="3" fill="#475569"/>
+  <rect x="80" y="308" width="180" height="8" rx="3" fill="#334155"/>
+  <rect x="420" y="265" width="100" height="35" rx="8" fill="#a855f7"/>
+  <text x="470" y="287" fill="#ffffff" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Dashboard</text>
+</svg>

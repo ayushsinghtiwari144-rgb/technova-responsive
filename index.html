@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TechNova - Professional Digital Solutions Agency specializing in web development, mobile apps, UI/UX design, and cloud services.">
+  <title>TechNova — Digital Solutions</title>
+  
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- Google Fonts Preconnect & Import (Inter & Outfit) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ==================== NAVBAR ==================== -->
+  <header class="navbar-header" id="header">
+    <div class="container navbar-container">
+      <a href="#hero" class="logo" aria-label="TechNova Home">
+        <span class="logo-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+            <polyline points="2 17 12 22 22 17"></polyline>
+            <polyline points="2 12 12 17 22 12"></polyline>
+          </svg>
+        </span>
+        <span class="logo-text">Tech<span class="logo-accent">Nova</span></span>
+      </a>
+
+      <!-- Hamburger Button for Mobile -->
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#why-us" class="nav-link">Why Us</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link nav-cta-btn">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot"></span> Digital Innovation &amp; Technology Partner
+          </div>
+          <h1 class="hero-title">
+            Transforming Ideas Into <span class="gradient-text">Powerful Mobile &amp; Web</span> Solutions
+          </h1>
+          <p class="hero-description">
+            TechNova crafts high-performance, fully responsive websites and scalable mobile applications engineered to elevate modern businesses in a digital-first world.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">
+              Get Started
+              <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <a href="#services" class="btn btn-secondary">View Services</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="image-wrapper">
+            <img src="assets/images/hero-illustration.svg" alt="TechNova Responsive Digital Control Hub" class="hero-img" loading="eager">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">WHO WE ARE</span>
+          <h2 class="section-title">Architecting Next-Gen Digital Products</h2>
+          <p class="section-description">
+            We are a team of passionate developers, designers, and cloud architects committed to building ultra-responsive, scalable digital experiences.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-visual">
+            <img src="assets/images/about-illustration.svg" alt="TechNova Driven by Innovation" class="about-img" loading="lazy">
+          </div>
+          <div class="about-content">
+            <h3 class="about-heading">Empowering Businesses with Cutting-Edge Technology</h3>
+            <p class="about-text">
+              At TechNova, we bridge the gap between desktop performance and seamless mobile usability. Every solution we engineer is mobile-first, performance-tuned, and tailored to provide an exceptional user experience on screens of any dimensions.
+            </p>
+            <ul class="about-features">
+              <li>
+                <span class="check-icon">✓</span>
+                <div>
+                  <strong>Mobile-First Architecture:</strong> Optimized fluid layouts built for seamless interaction across all device breakpoints.
+                </div>
+              </li>
+              <li>
+                <span class="check-icon">✓</span>
+                <div>
+                  <strong>Clean &amp; Accessible Code:</strong> Strict adherence to semantic standards, keyboard accessibility, and contrast.
+                </div>
+              </li>
+              <li>
+                <span class="check-icon">✓</span>
+                <div>
+                  <strong>High Performance:</strong> Lightning-fast render speeds, responsive image loading, and lightweight assets.
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Statistics Cards -->
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-number gradient-text">50+</div>
+            <div class="stat-label">Projects Completed</div>
+            <p class="stat-subtext">Delivered on time with quality</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number gradient-text">30+</div>
+            <div class="stat-label">Global Clients</div>
+            <p class="stat-subtext">Trusting our digital solutions</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number gradient-text">5+</div>
+            <div class="stat-label">Years Experience</div>
+            <p class="stat-subtext">Building responsive web tech</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SERVICES SECTION ==================== -->
+    <section class="services-section" id="services">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">OUR EXPERTISE</span>
+          <h2 class="section-title">Comprehensive Digital Services</h2>
+          <p class="section-description">
+            Custom-tailored solutions designed with responsive CSS, modern frameworks, and robust backends.
+          </p>
+        </div>
+
+        <!-- Responsive CSS Grid: Desktop 4 cols | Tablet 2 cols | Mobile 1 col -->
+        <div class="services-grid">
+          <!-- Service Card 1 -->
+          <article class="service-card">
+            <div class="service-icon icon-cyan">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <h3 class="service-title">Web Development</h3>
+            <p class="service-desc">
+              Custom responsive websites built using semantic HTML5, modern CSS Grid, Flexbox, and optimized vanilla JavaScript.
+            </p>
+            <div class="tech-tags">
+              <span class="tag">HTML5/CSS3</span>
+              <span class="tag">Grid &amp; Flexbox</span>
+              <span class="tag">Responsive</span>
+            </div>
+          </article>
+
+          <!-- Service Card 2 -->
+          <article class="service-card">
+            <div class="service-icon icon-purple">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                <line x1="12" y1="18" x2="12.01" y2="18"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">Mobile App Development</h3>
+            <p class="service-desc">
+              Cross-platform mobile applications delivering native performance, intuitive touch navigation, and smooth user interfaces.
+            </p>
+            <div class="tech-tags">
+              <span class="tag">iOS &amp; Android</span>
+              <span class="tag">Flutter</span>
+              <span class="tag">Mobile UX</span>
+            </div>
+          </article>
+
+          <!-- Service Card 3 -->
+          <article class="service-card">
+            <div class="service-icon icon-rose">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+                <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                <path d="M2 2l7.586 7.586"></path>
+                <circle cx="11" cy="11" r="2"></circle>
+              </svg>
+            </div>
+            <h3 class="service-title">UI/UX Design</h3>
+            <p class="service-desc">
+              User-centered wireframing, prototyping, and responsive component design focused on clarity, accessibility, and elegance.
+            </p>
+            <div class="tech-tags">
+              <span class="tag">Wireframing</span>
+              <span class="tag">Prototyping</span>
+              <span class="tag">Design Systems</span>
+            </div>
+          </article>
+
+          <!-- Service Card 4 -->
+          <article class="service-card">
+            <div class="service-icon icon-amber">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Cloud Solutions</h3>
+            <p class="service-desc">
+              Scalable cloud infrastructure, automated deployment pipelines, and high-availability server setups for modern web apps.
+            </p>
+            <div class="tech-tags">
+              <span class="tag">AWS / Cloud</span>
+              <span class="tag">DevOps</span>
+              <span class="tag">Microservices</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PROJECTS SECTION ==================== -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">PORTFOLIO</span>
+          <h2 class="section-title">Featured Client Work</h2>
+          <p class="section-description">
+            Explore our recent projects highlighting fluid layouts, mobile responsiveness, and high visual impact.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project Card 1 -->
+          <article class="project-card">
+            <div class="project-img-holder">
+              <img src="assets/images/project-novacloud.svg" alt="NovaCloud Enterprise Portal Preview" class="project-img" loading="lazy">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">NovaCloud Enterprise Portal</h3>
+              <p class="project-desc">
+                An all-in-one cloud management dashboard featuring real-time data visualization, dark mode UI, and complete mobile media query responsiveness.
+              </p>
+              <div class="tech-tags">
+                <span class="tag">React</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">CSS Grid</span>
+              </div>
+              <a href="#contact" class="btn btn-card">View Project</a>
+            </div>
+          </article>
+
+          <!-- Project Card 2 -->
+          <article class="project-card">
+            <div class="project-img-holder">
+              <img src="assets/images/project-apexbank.svg" alt="Apex Banking Mobile App Preview" class="project-img" loading="lazy">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Apex Banking Mobile App</h3>
+              <p class="project-desc">
+                A secure mobile banking application with touch-friendly navigation, instant transaction analytics, and adaptive layout scaling across all phone sizes.
+              </p>
+              <div class="tech-tags">
+                <span class="tag">Flutter</span>
+                <span class="tag">Firebase</span>
+                <span class="tag">Mobile UX</span>
+              </div>
+              <a href="#contact" class="btn btn-card">View Project</a>
+            </div>
+          </article>
+
+          <!-- Project Card 3 -->
+          <article class="project-card">
+            <div class="project-img-holder">
+              <img src="assets/images/project-quantum.svg" alt="Quantum E-Commerce System Preview" class="project-img" loading="lazy">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Quantum E-Commerce System</h3>
+              <p class="project-desc">
+                A high-converting online storefront with a responsive product showcase grid, interactive shopping cart, and smooth checkout experience.
+              </p>
+              <div class="tech-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS Grid</span>
+                <span class="tag">Vanilla JS</span>
+              </div>
+              <a href="#contact" class="btn btn-card">View Project</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== WHY CHOOSE US SECTION ==================== -->
+    <section class="why-us-section" id="why-us">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">OUR ADVANTAGE</span>
+          <h2 class="section-title">Why Choose TechNova</h2>
+          <p class="section-description">
+            We deliver industry-standard web craftsmanship designed to perform flawlessly on desktop, tablet, and mobile.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <!-- Feature Card 1 -->
+          <div class="feature-card">
+            <div class="feature-icon">📱</div>
+            <h3 class="feature-title">Responsive Solutions</h3>
+            <p class="feature-desc">
+              Every layout is meticulously engineered with CSS media queries and relative units (rem, %, vw) ensuring zero horizontal scrolling on mobile.
+            </p>
+          </div>
+
+          <!-- Feature Card 2 -->
+          <div class="feature-card">
+            <div class="feature-icon">⚡</div>
+            <h3 class="feature-title">Modern Technology</h3>
+            <p class="feature-desc">
+              Built with modern CSS Grid, Flexbox, and lightweight JavaScript for blazing fast load times and buttery smooth performance.
+            </p>
+          </div>
+
+          <!-- Feature Card 3 -->
+          <div class="feature-card">
+            <div class="feature-icon">🔒</div>
+            <h3 class="feature-title">Secure Development</h3>
+            <p class="feature-desc">
+              Adhering to strict web standards, semantic markup, sanitized inputs, and data protection best practices.
+            </p>
+          </div>
+
+          <!-- Feature Card 4 -->
+          <div class="feature-card">
+            <div class="feature-icon">🛠️</div>
+            <h3 class="feature-title">Dedicated Support</h3>
+            <p class="feature-desc">
+              Continuous maintenance, cross-device QA testing, and dedicated technical assistance every step of the way.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="contact-wrapper">
+          <!-- Contact Details Side -->
+          <div class="contact-info">
+            <span class="section-subtitle">GET IN TOUCH</span>
+            <h2 class="contact-heading">Let's Discuss Your Project</h2>
+            <p class="contact-lead">
+              Have a question or looking to build a responsive website? Send us a message and our team will respond within 24 hours.
+            </p>
+
+            <div class="contact-details-list">
+              <div class="contact-detail-item">
+                <div class="detail-icon">📍</div>
+                <div>
+                  <strong>Office Location</strong>
+                  <p>100 Digital Parkway, Tech Suite 500, City</p>
+                </div>
+              </div>
+              <div class="contact-detail-item">
+                <div class="detail-icon">✉️</div>
+                <div>
+                  <strong>Email Address</strong>
+                  <p>contact@technova.com</p>
+                </div>
+              </div>
+              <div class="contact-detail-item">
+                <div class="detail-icon">📞</div>
+                <div>
+                  <strong>Phone Number</strong>
+                  <p>+1 (800) 555-NOVA</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form Side -->
+          <div class="contact-form-card">
+            <form class="contact-form" id="contactForm">
+              <div class="form-header">
+                <h3>Send Us A Message</h3>
+                <p>Fill in the details below to request a quote.</p>
+              </div>
+
+              <div class="form-group">
+                <label for="name" class="form-label">Full Name <span class="required">*</span></label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="e.g. Ayush Singh Tiwari" required>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Email Address <span class="required">*</span></label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="e.g. ayush@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject <span class="required">*</span></label>
+                <input type="text" id="subject" name="subject" class="form-input" placeholder="e.g. Web Development Inquiry" required>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message <span class="required">*</span></label>
+                <textarea id="message" name="message" class="form-input form-textarea" rows="4" placeholder="Tell us about your project requirements..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-full">
+                Submit Message
+                <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              </button>
+              
+              <!-- Success Alert (Hidden by default) -->
+              <div class="form-feedback" id="formFeedback" role="alert" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-grid">
+        <!-- Brand Info -->
+        <div class="footer-col footer-brand">
+          <a href="#hero" class="logo">
+            <span class="logo-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+            </span>
+            <span class="logo-text">Tech<span class="logo-accent">Nova</span></span>
+          </a>
+          <p class="footer-desc">
+            Empowering modern brands with beautiful, responsive, and mobile-friendly web applications built for optimal user engagement.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Services Links -->
+        <div class="footer-col">
+          <h4 class="footer-title">Our Services</h4>
+          <ul class="footer-links">
+            <li><a href="#services">Web Development</a></li>
+            <li><a href="#services">Mobile Apps</a></li>
+            <li><a href="#services">UI/UX Design</a></li>
+            <li><a href="#services">Cloud Solutions</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="footer-col">
+          <h4 class="footer-title">Contact Us</h4>
+          <p class="footer-contact-item"><strong>Email:</strong> contact@technova.com</p>
+          <p class="footer-contact-item"><strong>Phone:</strong> +1 (800) 555-NOVA</p>
+          <p class="footer-contact-item"><strong>Address:</strong> 100 Digital Parkway, Tech Suite 500</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 TechNova Digital Solutions. All Rights Reserved.</p>
+        <p class="author-tag">Task 4 Internship Project • Created by <strong>Ayush Singh Tiwari</strong></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- External JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>

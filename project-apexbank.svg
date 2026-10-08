@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="cardAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="16" fill="url(#bgGrad2)"/>
+  
+  <!-- Credit Card Visual -->
+  <g transform="translate(140, 60)">
+    <rect x="0" y="0" width="320" height="190" rx="16" fill="url(#cardAccent)" opacity="0.95"/>
+    <circle cx="270" cy="40" r="22" fill="#ffffff" opacity="0.3"/>
+    <circle cx="290" cy="40" r="22" fill="#ffffff" opacity="0.2"/>
+    <!-- Chip -->
+    <rect x="30" y="50" width="45" height="35" rx="6" fill="#fbbf24"/>
+    <!-- Card Number -->
+    <text x="30" y="125" fill="#ffffff" font-family="monospace" font-size="18" letter-spacing="3">4532 •••• •••• 8891</text>
+    <!-- Holder Name -->
+    <text x="30" y="160" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">APEX BANK ENTERPRISE</text>
+    <text x="240" y="160" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="12">12/28</text>
+  </g>
+
+  <!-- Banking App Bar chart Overlay -->
+  <g transform="translate(100, 260)">
+    <rect x="0" y="0" width="400" height="95" rx="12" fill="#0f172a" stroke="#10b981" stroke-width="1.5"/>
+    <!-- Bar charts -->
+    <rect x="40" y="45" width="25" height="35" rx="4" fill="#334155"/>
+    <rect x="80" y="30" width="25" height="50" rx="4" fill="#334155"/>
+    <rect x="120" y="20" width="25" height="60" rx="4" fill="#10b981"/>
+    <rect x="160" y="40" width="25" height="40" rx="4" fill="#334155"/>
+    <rect x="200" y="15" width="25" height="65" rx="4" fill="#06b6d4"/>
+    <rect x="240" y="35" width="25" height="45" rx="4" fill="#334155"/>
+    
+    <text x="300" y="45" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">+\$24,850.00</text>
+    <text x="300" y="65" fill="#10b981" font-family="system-ui, sans-serif" font-size="11">▲ 14.8% Monthly Growth</text>
+  </g>
+</svg>
